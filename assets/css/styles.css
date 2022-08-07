@@ -1,0 +1,36 @@
+.bg-red-600 {
+    
+    background-color: rgb(220 38 38);
+}
+.grid {
+    display: grid;
+}
+.grid-cols-6{
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.grid-rows-6{
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+
+}
+
+.row-start-2{
+    grid-row-start: 2;
+}
+.row-end-1{
+    grid-row-end: 1;
+}
+
+.col-start-2
+{
+    grid-column-start: 2;
+}
+
+.col-end-3{
+    grid-column-end: 3;
+
+}
+
+
+
+
